@@ -107,7 +107,7 @@ export default function CreateListing() {
     if(e.target.type === 'number' || e.target.type ==="text" || e.target.type ==="textarea"){
       setFormData({
       ...formData,
-      [e.target.id]:e.target.value
+      [e.target.id]: e.target.value
 
         
       })
